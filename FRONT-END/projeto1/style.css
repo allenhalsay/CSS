@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+}
+
+header{
+    background-color:#F8F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container{
+    width: 581px;
+    margin-top: 50px;
+}
+
+header > img{
+    height: 460px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container > h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.container > p{
+    font-family: 'Roboto', sans-serif;
+    color: #121214;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+ header .container > a{
+    background-color: #846AFF;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin-top: 46px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h1{
+    color: #121214;
+}
+
+h1 > span{
+    color: #846AFF;
+}
+
+section{
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+section, section .container {
+    background-color: #ffffff;
+}
+
+section h2{
+    margin: 80px auto 113px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section .container{
+    display: flex;
+    gap: 32px;
+}
+
+article h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 32px 24px auto;
+}
+
+article p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 12px 24px auto;
+}
+
+section .container > a{
+    color: #121214;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #EEEEFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+footer .container{
+    width: 592px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+footer .container h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+input{
+    min-width: 592px;
+    height: 59px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+input[type="text"], input[type="email"]{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 24px;
+    border: 1px solid #EAEAEA;
+    background-color: #FFF;
+}
+
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+textarea{
+    min-width: 592px;
+    padding-top: 19px;
+    padding-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    resize: none;
+    border: 1px solid #EAEAEA;
+    background-color: #FFF;
+}
+
+button{
+    background-color: #846AFF;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin-top: 46px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    min-width: 592px;
+    border-radius: 4px;
+    height: 47px;
+    cursor: pointer;
+}
